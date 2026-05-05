@@ -1,0 +1,12 @@
+
+ for i in `cat list`
+do
+# echo $i
+  echo "<a target="_blank" href="$i">"
+  echo "   <img src="$i" alt="Forest" style="width:150px">"
+  echo "</a>"
+done
+
+#<a target="_blank" href="Master_Bed4.jpg">
+#  <img src="Master_Bed4.jpg" alt="Forest" style="width:150px">
+#</a>
